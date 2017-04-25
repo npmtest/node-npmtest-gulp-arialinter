@@ -1,6 +1,6 @@
 # npmtest-gulp-arialinter
 
-#### test coverage for  [gulp-arialinter (v0.0.1)](https://github.com/Charca/gulp-arialinter)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-arialinter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-arialinter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-arialinter.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-arialinter)
+#### basic test coverage for  [gulp-arialinter (v0.0.1)](https://github.com/Charca/gulp-arialinter)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-arialinter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-arialinter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-arialinter.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-arialinter)
 
 #### Gulp plugin for the accessibility tool AriaLinter
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-arialinter/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-arialinter/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-arialinter/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-arialinter/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-arialinter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-arialinter/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-arialinter/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-arialinter/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-arialinter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-arialinter/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-arialinter/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-arialinter/build/coverage.html/index.html)
 
@@ -84,7 +84,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
